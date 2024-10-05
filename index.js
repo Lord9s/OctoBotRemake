@@ -1,8 +1,8 @@
 /*
-(⁠ ⁠ꈍ⁠ᴗ⁠ꈍ⁠) DEV: REJARD BENTAZAR 
+(⁠ ⁠ꈍ⁠ᴗ⁠ꈍ⁠) DEV: Lord King
 
 * CREDITS TO: 
-** AIZENTEL 
+** Jayden
 **NTKANG
 ** FCA-UNOFFICIAL
 */
@@ -12,7 +12,7 @@ const { spawn } = require("child_process");
 const path = require('path');
 const YAFB_SYSTEM = "V315.js";
 const YAFB_CORE = path.join(__dirname, YAFB_SYSTEM);
-console.log(chalk.green('[SUCCES] - OctobotRemake is Now Ready to Use'));
+console.log(chalk.green('[SUCCES] - lordbot is Now Ready to Use'));
 function start() {
     const main = spawn("node", [YAFB_SYSTEM], {
         cwd: __dirname,
