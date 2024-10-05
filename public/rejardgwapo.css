@@ -1,4 +1,4 @@
- 
+8 
 input, textarea{
   background-color: #F3F3F3; 
   padding: 4px;
@@ -166,7 +166,7 @@ legend {
         color: purple;
     }
     100% {
-        color: orange;
+        color: red;
     }
 }
 
